@@ -1,3 +1,42 @@
-body {
-    background-color: red;
+$colore-rosa: #ffc0cb;
+$colore-lightblue: lightblue;
+@mixin header-footer {
+    width: 100%;
+    height: 90px;
+    line-height: 90px;
+    background-color: $colore-rosa;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenitore {
+    max-width: 1170px;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    header {
+        @include header-footer;
+    }
+    main {
+        display: flex;
+        line-height: 500px;
+        .sx, .dx, .centrale {
+            height: 500px;
+        }
+        .sx, .dx {
+            width: 20%;
+            background-color: $colore-lightblue;
+        }
+        .centrale {
+            flex-grow: 1;
+            background-color: orange;
+        }
+    }
+    footer {
+        @include header-footer;
+    }
 }
