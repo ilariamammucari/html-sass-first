@@ -7,6 +7,7 @@ $colore-lightblue: lightblue;
     line-height: 90px;
     background-color: $colore-rosa;
     span:hover {
+        cursor: pointer;
         color: $colore-arancione;
     }
 }
@@ -43,6 +44,7 @@ $colore-lightblue: lightblue;
             flex-grow: 1;
             background-color: $colore-arancione;
             span:hover {
+                cursor: pointer;
                 color: $colore-lightblue;
             }
         }

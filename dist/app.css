@@ -17,6 +17,7 @@
   background-color: #ffc0cb;
 }
 .contenitore header span:hover {
+  cursor: pointer;
   color: orange;
 }
 .contenitore main {
@@ -39,6 +40,7 @@
   background-color: orange;
 }
 .contenitore main .centrale span:hover {
+  cursor: pointer;
   color: lightblue;
 }
 .contenitore footer {
@@ -48,5 +50,6 @@
   background-color: #ffc0cb;
 }
 .contenitore footer span:hover {
+  cursor: pointer;
   color: orange;
 }
