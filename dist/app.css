@@ -16,6 +16,9 @@
   line-height: 90px;
   background-color: #ffc0cb;
 }
+.contenitore header span:hover {
+  color: orange;
+}
 .contenitore main {
   display: flex;
   line-height: 500px;
@@ -27,13 +30,23 @@
   width: 20%;
   background-color: lightblue;
 }
+.contenitore main .sx span:hover, .contenitore main .dx span:hover {
+  cursor: pointer;
+  color: #ffc0cb;
+}
 .contenitore main .centrale {
   flex-grow: 1;
   background-color: orange;
+}
+.contenitore main .centrale span:hover {
+  color: lightblue;
 }
 .contenitore footer {
   width: 100%;
   height: 90px;
   line-height: 90px;
   background-color: #ffc0cb;
+}
+.contenitore footer span:hover {
+  color: orange;
 }
